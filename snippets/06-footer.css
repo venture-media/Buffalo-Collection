@@ -1,0 +1,56 @@
+.footer-widget-1, .footer-widget-2, .footer-widget-3 {
+	text-align: center;
+	align-content: start;
+}
+
+.copyright-bar, .inside-site-info {
+	display: none;
+}
+
+.footer-widget-2 img{
+	padding: 20px 20px 0px 20px;
+	width: 100%;
+	max-width: 60vw;
+}
+
+.footer-widget-1, .footer-widget-3 {
+	padding-top: 50px;
+	line-height: 20px;
+	font-family: "Effra", san-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.footer-widget-2 {
+	font-size: 15px;
+}
+
+.wp-block-social-links {
+	align-items: start;
+}
+
+
+/* WooCommerce loads WP stylesheet before custom stylesheet */
+
+.wp-social-link-instagram {
+	margin-top: 1px !important;
+	margin-right: 3px !important;
+}
+
+.wp-social-link-linkedin {
+	margin-top: 1px !important;
+	margin-right: 3px !important;
+}
+
+.wp-social-link-facebook {
+	margin-left: 3px !important;
+	margin-right: 3px !important;
+}
+
+a.wp-block-social-link-anchor svg{
+	fill: #585861 !important;
+}
+
+a.wp-block-social-link-anchor svg:hover{
+	fill: #f88c00 !important;
+}

@@ -1,0 +1,38 @@
+/*
+=====================
+  12 EXPORT REPORT STYLES
+=====================
+
+Purpose:
+- Define print styling for report exports.
+- Define button styles.
+*/
+
+
+
+.print-target .accordion-export-btn {
+  display: none;
+}
+
+@media print {
+  .print-target {
+    position: relative !important;
+  }
+}
+
+.accordion-export-btn {
+  padding: 3px 20px;
+  font-family: Effra;
+  font-weight: 300;
+  font-size: 14px;
+  background-color: var(--e-global-color-text);
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.accordion-export-btn:hover {
+  background-color: var(--e-global-color-primary);
+}

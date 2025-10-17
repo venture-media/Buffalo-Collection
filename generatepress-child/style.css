@@ -1,0 +1,67 @@
+/*
+ Theme Name: GeneratePress Child v1.0.0
+ Theme URI: https://github.com/venture-media/Venture-Media
+ Description: Child theme for GeneratePress
+ Author: Leon de Klerk
+ Author URI: https://github.com/Leon2332/
+ Template: generatepress
+ Version: 1.0.0
+
+
+------------------------------------------------------------------
+ CHILD THEME STRUCTURE OVERVIEW
+------------------------------------------------------------------
+
+
+generatepress-child/
+    │
+    ├─ functions.php                             → Main loader: enqueues CSS/JS, includes modular PHP files
+    │
+    ├─ style.css                                 → Theme header & notes (This file)
+    │
+    ├─ css/                                      → Numbered CSS files for load order
+    │     ├─ 00-global-links.css
+    │     ├─ 01-social-icons.css
+    │     ├─ 02-site-header.css
+    │     ├─ 03-password-form.css
+    │     ├─ 04-hide-page-header.css
+    │     ├─ 05-woocommerce-single.css
+    │     ├─ 06-staff-members.css
+    │     ├─ 07-last-updated.css
+    │     ├─ 08-charts.css
+    │     ├─ 09-menu-overlay.css
+    │     ├─ 10-menu-shopping-cart.css
+    │     ├─ 11-woocommerce.css
+    │     └─ 12-export-report.css
+    │
+    ├─ js/                                         → Whitelisted JS files
+    │     ├─ 00-header-scroll.js
+    │     ├─ 01-menu-overlay.js
+    │     ├─ 02-export-report.js
+    │     └─ 03-noindex.js
+    │
+    ├─ includes/                                   → PHP modules
+    │     ├─ 00-roles.php
+    │     ├─ 01-charts.php
+    │     ├─ 02-frontend-enhancements.php
+    │     ├─ 03-shortcodes.php
+    │     ├─ 04-admin-enhancements.php
+    │     ├─ 05-noindex.php
+    │     ├─ 06-redirect-manager.php
+    │     └─ 07-woocommerce-tweaks.php
+    │
+    ├─ woocommerce/                                → WooCommerce template overrides
+    │     └─ single-product.php
+    │
+    ├─ elementor-widgets/                          → Custom Elementor widgets
+    │     └─ class-report-chart-widget.php
+    │
+    └─ screenshot.jpg                              → Theme screenshot for WP admin
+
+
+------------------------------------------------------------------
+ NOTES
+------------------------------------------------------------------
+• All CSS files are auto-enqueued in numeric order via functions.php.
+• JS files are whitelisted for security via functions.php.
+*/
