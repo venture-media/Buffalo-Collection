@@ -1,8 +1,9 @@
-- Website:
+- Based on [Venture Media](https://github.com/venture-media/Venture-Media)
+- Website: TBD
 - Platform: WordPress
 - Parent theme: GeneratePress
 - Plugins:
-    - Elementor
+    - Elementor Pro
     - Simple Custom CSS and JS
     - ShortPixel Image Optimizer
 
