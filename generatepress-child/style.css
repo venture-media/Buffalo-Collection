@@ -29,10 +29,7 @@ generatepress-child/
     │     ├─ 06-staff-members.css
     │     ├─ 07-last-updated.css
     │     ├─ 08-charts.css
-    │     ├─ 09-menu-overlay.css
-    │     ├─ 10-menu-shopping-cart.css
-    │     ├─ 11-woocommerce.css
-    │     └─ 12-export-report.css
+    │     └─ 09-menu-overlay.css
     │
     ├─ js/                                         → Whitelisted JS files
     │     ├─ 00-header-scroll.js
@@ -45,10 +42,8 @@ generatepress-child/
     │     ├─ 01-charts.php
     │     ├─ 02-frontend-enhancements.php
     │     ├─ 03-shortcodes.php
-    │     ├─
     │     ├─ 05-noindex.php
-    │     ├─ 06-redirect-manager.php
-    │     └─ 07-woocommerce-tweaks.php
+    │     └─ 06-redirect-manager.php
     │
     └─ screenshot.jpg                              → Theme screenshot for WP admin
 
