@@ -48,16 +48,7 @@ generatepress-child/
     │     ├─
     │     ├─ 05-noindex.php
     │     ├─ 06-redirect-manager.php
-    │     ├─ 07-woocommerce-tweaks.php
-    │     └─ 08-favicon.php
-    │
-    ├─ woocommerce/                                → WooCommerce template overrides
-    │     └─ single-product.php
-    │
-    ├─ elementor-widgets/                          → Custom Elementor widgets
-    │     └─ class-report-chart-widget.php
-    │
-    ├─ favicon.svg
+    │     └─ 07-woocommerce-tweaks.php
     │
     └─ screenshot.jpg                              → Theme screenshot for WP admin
 
