@@ -1,6 +1,14 @@
+div.site-footer.grid-container {
+	background-color:#393139 !important;
+}
+
 .footer-widgets-container {
 	background-color: #393139;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
+}
+
+.footer-widgets-container p{
+	color: #fff5e3;
 }
 
 .footer-widgets-container a{
@@ -13,9 +21,15 @@
 	color: #e48b46;
 }
 
-.footer-widget-1, .footer-widget-2, .footer-widget-3 {
+.footer-widget-1, .footer-widget-3 {
 	text-align: center;
 	align-content: center;
+	padding-bottom: 20px;
+}
+
+.footer-widget-2 {
+	text-align: center;
+	align-content: end;
 }
 
 .copyright-bar, .inside-site-info {
