@@ -13,3 +13,5 @@
 - The files in this reposotory include the child-theme and additional site content code (snippets) for this website.
 - Author: [Leon de Klerk](https://github.com/Leon2332)
 - Visit the [Wiki page](https://github.com/venture-media/Buffalo-Collection/wiki) for maintanance and troubleshooting.
+- Tested with:
+    - PHP 8.4
