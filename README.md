@@ -8,6 +8,7 @@
     - Elementor Pro
     - Simple Custom CSS and JS
     - ShortPixel Image Optimizer
+    - W3 Total Cache (when using Apache servers)
 
 - The files in this reposotory include the child-theme and additional site content code (snippets) for this website.
 - Author: [Leon de Klerk](https://github.com/Leon2332)
