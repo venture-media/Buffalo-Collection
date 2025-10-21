@@ -23,6 +23,14 @@
 	padding-top: 4px;
   }
 
+  .main-navigation #primary-menu li a{
+    color: #fff5e3;
+  }
+
+	.main-navigation #primary-menu li a:hover{
+    color: #e48b46;
+  }
+
   #primary-menu {
     display: none;
   }
