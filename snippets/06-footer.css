@@ -9,6 +9,10 @@
 	text-decoration: none;
 }
 
+.footer-widgets-container a:hover{
+	color: #e48b46;
+}
+
 .footer-widget-1, .footer-widget-2, .footer-widget-3 {
 	text-align: center;
 	align-content: center;
