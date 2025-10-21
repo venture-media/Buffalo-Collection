@@ -1,6 +1,17 @@
+.footer-widgets-container {
+	background-color: #393139;
+	padding-bottom: 50px;
+}
+
+.footer-widgets-container a{
+	font-family: 'Nunito';
+	color: #fff5e3;
+	text-decoration: none;
+}
+
 .footer-widget-1, .footer-widget-2, .footer-widget-3 {
 	text-align: center;
-	align-content: start;
+	align-content: center;
 }
 
 .copyright-bar, .inside-site-info {
@@ -14,9 +25,7 @@
 }
 
 .footer-widget-1, .footer-widget-3 {
-	padding-top: 50px;
 	line-height: 20px;
-	font-family: "Effra", san-serif;
 	font-size: 16px;
 	font-weight: 300;
 }
@@ -27,30 +36,4 @@
 
 .wp-block-social-links {
 	align-items: start;
-}
-
-
-/* WooCommerce loads WP stylesheet before custom stylesheet */
-
-.wp-social-link-instagram {
-	margin-top: 1px !important;
-	margin-right: 3px !important;
-}
-
-.wp-social-link-linkedin {
-	margin-top: 1px !important;
-	margin-right: 3px !important;
-}
-
-.wp-social-link-facebook {
-	margin-left: 3px !important;
-	margin-right: 3px !important;
-}
-
-a.wp-block-social-link-anchor svg{
-	fill: #585861 !important;
-}
-
-a.wp-block-social-link-anchor svg:hover{
-	fill: #f88c00 !important;
 }
