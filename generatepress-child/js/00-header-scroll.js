@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Compute absolute URL dynamically
   const baseUrl = window.location.origin; // replace with your subdirectory if needed
-  const logoBlack = baseUrl + '/wp-content/uploads/2025/10/Buffalo_LOGO_Black.svg';
+  const logoBlack = baseUrl + '/wp-content/uploads/2025/10/Buffalo_LOGO_Off-white.svg';
   const logoWhite = baseUrl + '/wp-content/uploads/2025/10/Buffalo_LOGO_White.svg';
 
   window.addEventListener("scroll", function () {
