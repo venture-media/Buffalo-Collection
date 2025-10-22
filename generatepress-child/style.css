@@ -31,7 +31,6 @@ generatepress-child/
     ├─ js/                                         → Whitelisted JS files
     │     ├─ 00-header-scroll.js
     │     ├─ 01-menu-overlay.js
-    │     ├─ 02-export-report.js
     │     └─ 03-noindex.js
     │
     ├─ includes/                                   → PHP modules
