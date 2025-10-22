@@ -1,11 +1,11 @@
 /*
- Theme Name: GeneratePress Child v0.9.1-beta
+ Theme Name: GeneratePress Child v0.9.2-beta
  Theme URI: https://github.com/venture-media/Buffalo-Collection
  Description: Child theme for GeneratePress
  Author: Leon de Klerk
  Author URI: https://github.com/Leon2332/
  Template: generatepress
- Version: 0.9.1-beta
+ Version: 0.9.2-beta
 
 
 ------------------------------------------------------------------
@@ -25,10 +25,7 @@ generatepress-child/
     │     ├─ 02-site-header.css
     │     ├─ 03-password-form.css
     │     ├─ 04-hide-page-header.css
-    │     ├─ 05-woocommerce-single.css
-    │     ├─ 06-staff-members.css
     │     ├─ 07-last-updated.css
-    │     ├─ 08-charts.css
     │     └─ 09-menu-overlay.css
     │
     ├─ js/                                         → Whitelisted JS files
@@ -38,8 +35,6 @@ generatepress-child/
     │     └─ 03-noindex.js
     │
     ├─ includes/                                   → PHP modules
-    │     ├─ 00-roles.php
-    │     ├─ 01-charts.php
     │     ├─ 02-frontend-enhancements.php
     │     ├─ 03-shortcodes.php
     │     ├─ 05-noindex.php
