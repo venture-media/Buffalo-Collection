@@ -29,7 +29,7 @@ function my_custom_image_above_password_form( $content ) {
     if ( post_password_required() ) {
 
         // dynamic URL to the uploads folder
-        $image_url = content_url('uploads/2025/09/Advertising.jpg');
+        $image_url = content_url('/uploads/2025/10/f1093f65131c9a415bd6aca4b71fcbd9.jpg');
 
         $img_html = '<div class="protected-decorative-image"><img src="' . esc_url( $image_url ) . '" alt="" /></div>';
 
