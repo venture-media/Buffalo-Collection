@@ -14,4 +14,5 @@
 - Author: [Leon de Klerk](https://github.com/Leon2332)
 - Visit the [Wiki page](https://github.com/venture-media/Buffalo-Collection/wiki) for maintanance and troubleshooting.
 - Tested with:
+    - WordPress 6.8
     - PHP 8.4
