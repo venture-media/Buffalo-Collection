@@ -44,6 +44,18 @@
     fill: #393139;
   }
   
+  .map_city {
+    stroke-width: 3;
+    stroke: #50302b;
+    fill: #50302b;
+  }
+  
+  .map_city_text {
+    font-family: century-gothic;
+    font-size: 20px;
+    fill: #50302b;  
+  }
+  
 
 /*id selectors*/
   :has(#map_reserve_1:hover) :is(#map_reserve_text_1),
@@ -172,8 +184,14 @@
 
   
   
-   <ellipse class="map_locations clickable" id="map_location_7" transform="matrix(1, 0, 0, 1, 840, 130)" cx="0" cy="0" rx="9" ry="9"/>
+   <ellipse class="map_locations clickable" id="map_location_7" transform="matrix(1, 0, 0, 1, 840, 130)" cx="0" cy="0" rx="7.5" ry="7.5"/>
         <text class="map_location_text" id="map_location_text_7" x="840" y="160">Buffalo Collection</text>
+        
+        
+        
+        
+    <ellipse class="map_city clickable" id="map_city_1" transform="matrix(1, 0, 0, 1, 390, 482)" cx="0" cy="0" rx="3" ry="3"/>
+        <text class="map_city_text" id="map_city_text_1" x="385" y="475">Windhoek</text>
   
   
 
