@@ -38,12 +38,12 @@
   
   .map_reserves-1 {
     stroke-width: 0.5px;
-    stroke: #39313950;
-    fill: #39313950;
+    stroke: #39313930;
+    fill: #39313930;
   }
 
   .map_reserves-1:hover {
-      fill: #393139bf;
+      fill: #39313950;
   }
 
   .map_reserve_text-1 {
@@ -59,7 +59,7 @@
   }
 
   .map_locations-1 {
-    stroke-width: 5;
+    stroke-width: 3.5;
     stroke: #393139;
     fill: #e48b46;
   }
@@ -81,13 +81,13 @@
      id="map_reserve_7-1"
      d="m 22.88788,272.95573 18.742407,21.95261 13.586624,-2.85351 1.815873,2.10771 1.329479,0.16213 2.399547,-0.71338 1.459184,-1.97801 2.172563,-1.19977 1.783447,-0.38912 2.269842,1.03765 0.940362,-0.38912 2.010432,-0.0324 1.653742,0.55125 1.621315,0.0973 10.830388,14.39728 -1.8483,3.24263 -12.354424,4.50726 -20.882544,-0.74581 1.588889,25.22767 371.962204,-71.92155 46.43447,0.6161 3.53447,-0.38912 21.5635,-6.58254 20.75284,2.10771 7.55533,-15.66191 20.49342,-10.47369 v -2.43198 l -12.74354,3.59932 -11.77075,-0.6161 -11.51134,-5.64217 4.44241,-45.85081 -0.90794,-1.10249 0.0648,-5.73946 z"
      style="stroke-width:3.24263" />
-     <text class="map_reserve_text-1" id="map_reserve_text_7-1" x="180" y="350">Bwabwata National Park</text>
+     <text class="map_reserve_text-1" id="map_reserve_text_7-1" x="100" y="200">Bwabwata National Park</text>
   <path
      class="map_reserves-1"
      id="map_reserve_13-1"
      d="m 761.5268,176.2929 -6.7771,15.14309 -0.32427,7.84716 -9.79274,26.26531 -11.83561,11.67348 -3.37233,4.70181 -5.51247,2.39955 -2.65896,9.95487 5.12336,-1.88072 -1.81588,4.66939 7.71746,-3.43719 3.79388,2.49682 5.60975,-1.07006 7.55533,5.64217 6.74468,10.31157 v 3.92358 l 5.44762,6.42041 5.25306,-2.04285 4.28027,3.43718 7.42563,0.4864 5.77188,-7.68504 4.60454,-10.18186 5.73945,-4.83152 5.28549,-6.74467 7.87959,-1.55646 3.30749,-5.02608 3.11292,-2.17256 -0.16213,-2.98322 3.63175,-3.14536 2.95079,2.49683 4.7991,-3.27506 4.60453,-2.65896 8.23629,-5.80431 4.02086,-2.20498 -4.183,-5.48005 -6.35555,1.32948 -20.9474,-8.20386 -1.55646,-2.91837 -3.66417,-0.6161 -0.45397,-3.17777 -7.06894,-2.36713 -8.88481,-8.2687 -11.05737,-6.35556 -8.26871,-6.32313 -5.12336,-7.29592 z"
      style="stroke-width:3.24263" />
-     <text class="map_reserve_text-1" id="map_reserve_text_13-1" x="700" y="320">Salambala Conservancy</text>
+     <text class="map_reserve_text-1" id="map_reserve_text_13-1" x="770" y="310">Salambala Conservancy</text>
   <path
      class="map_regions-1"
      id="map_region_8-1"
@@ -98,11 +98,24 @@
      id="map_location_7-1"
      cx="421.9689"
      cy="257.42471"
-     r="14.59184" />
+     r="7.5" />
   <text
      class="map_location_text-1"
      id="map_location_text_7-1"
-     x="430"
-     y="300"
-     style="stroke-width:3.">Buffalo Collection</text>
+     x="415"
+     y="290"
+     style="stroke-width:3">Buffalo Collection</text>
+     
+     
+     
+    <ellipse class="map_city clickable" id="map_city_2" transform="matrix(1, 0, 0, 1, 730, 140)" cx="0" cy="0" rx="3" ry="3"/>
+        <text class="map_city_text" id="map_city_text_2" x="720" y="130">Katima Mulilo</text>
+        
+    <ellipse class="map_city clickable" id="map_city_3" transform="matrix(1, 0, 0, 1, 60, 297)" cx="0" cy="0" rx="3" ry="3"/>
+        <text class="map_city_text" id="map_city_text_3" x="60" y="287">Divundu</text>
+        
+    <ellipse class="map_city clickable" id="map_city_4" transform="matrix(1, 0, 0, 1, 519, 229)" cx="0" cy="0" rx="3" ry="3"/>
+        <text class="map_city_text" id="map_city_text_4" x="520" y="222">Kongola</text>
+        
+        
 </svg>
