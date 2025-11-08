@@ -1,7 +1,7 @@
 <img width="1900" height="960" alt="Image" src="https://github.com/venture-media/Buffalo-Collection/blob/3aba31be22d1fd88f2fc7839b6a45c6946aef018/docs/Screenshot_2025-10-21_08-46-04.jpg" />
 
 - Based on [Venture Media v1.0.0](https://github.com/venture-media/Venture-Media/releases/tag/v1.0.0)
-- Website: TBD
+- Website: https://buffaloprivatelodge.com/
 - Platform: WordPress
 - Parent theme: GeneratePress
 - Plugins:
@@ -15,4 +15,4 @@
 - Visit the [Wiki page](https://github.com/venture-media/Buffalo-Collection/wiki) for maintanance and troubleshooting.
 - Tested with:
     - WordPress 6.8
-    - PHP 8.4
+    - PHP 8.1 and 8.4
