@@ -51,7 +51,7 @@
 
   .main-navigation.toggled #primary-menu {
     display: block;
-    background: #393139;
+    background: #211c21;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-top: solid;
     border-top-width: 3px;
@@ -148,7 +148,7 @@
 
   /* Scrolled state */
   #masthead.scrolled {
-    background: #393139;
+    background: #211c21;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
