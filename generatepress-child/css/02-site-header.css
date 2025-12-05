@@ -24,12 +24,12 @@
   .main-navigation #primary-menu li{
     border-bottom: solid;
     border-bottom-width: 1px;
-    border-bottom-color: #fff5e3;
+    border-bottom-color: #fff;
 	padding-top: 4px;
   }
 
   .main-navigation #primary-menu li a{
-    color: #fff5e3;
+    color: #fff;
   }
 
 	.main-navigation #primary-menu li a:hover{
@@ -55,7 +55,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-top: solid;
     border-top-width: 3px;
-    border-top-color: #fff5e3;
+    border-top-color: #fff;
 	padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
@@ -153,9 +153,9 @@
   }
 
   #masthead.scrolled .icon-menu-bars svg {
-    fill: #fff5e3 !important;
+    fill: #fff !important;
   }
 
   #masthead.scrolled .custom-social-icons svg {
-    fill: #fff5e3;
+    fill: #fff;
   }
